@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CalculatorGUI">
+  <grid id="27dc6" binding="Interface" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="564" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15000805"/>
+      <foreground color="-7741204"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2b2ef" class="javax.swing.JButton" binding="buttonSeven">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="7"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="aabe0" class="javax.swing.JButton" binding="buttonEight">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-1"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="8"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="6a605" class="javax.swing.JButton" binding="buttonFour">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="4"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="f44da" class="javax.swing.JButton" binding="buttonOne">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="1"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="fcdad" class="javax.swing.JButton" binding="buttonZero">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="0"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="9b5a4" class="javax.swing.JButton" binding="buttonNine">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="9"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="89ee0" class="javax.swing.JButton" binding="buttonFive">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="5"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="c2c14" class="javax.swing.JButton" binding="buttonTwo">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="2"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="6b996" class="javax.swing.JButton" binding="buttonPoint">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="."/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="b6628" class="javax.swing.JButton" binding="buttonClearEntry">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-10040430"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="CE"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="5bec6" class="javax.swing.JButton" binding="buttonMultiply">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-7741204"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="X"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="a9c82" class="javax.swing.JButton" binding="buttonSix">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="6"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="bbd30" class="javax.swing.JButton" binding="buttonThree">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="3"/>
+          <verifyInputWhenFocusTarget value="false"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="24666" class="javax.swing.JButton" binding="buttonAns">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-10040430"/>
+          <label value="ANS"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="ANS"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="2c6ea" class="javax.swing.JButton" binding="buttonDivide">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-7741204"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="/"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="7f2ea" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b5168" class="javax.swing.JButton" binding="buttonSubtract">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-7741204"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="-"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="e38f4" class="javax.swing.JButton" binding="buttonPlus">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-7741204"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="+"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="2ae2c" class="javax.swing.JButton" binding="buttonEquals">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono ExtraBold" size="16"/>
+          <foreground color="-7741204"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="="/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
